@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeacePoint Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 60px 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            color: #555;
+            font-size: 1.05em;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        .contact-box h3 {
+            color: #667eea;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .contact-info svg {
+            flex-shrink: 0;
+        }
+
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .faq {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        .faq h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .faq p {
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .links a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 1.05em;
+        }
+
+        .links a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .disclaimer {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .disclaimer p {
+            color: #856404;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                padding: 40px 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.5em;
+            }
+
+            .links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🕊️ PeacePoint Support</h1>
+            <p>We're here to help you find your peace</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Welcome</h2>
+                <p>Thank you for using PeacePoint. We're committed to helping you manage anxiety and OCD symptoms with evidence-based tools and a peaceful user experience.</p>
+                <p>If you need assistance, have questions, or want to share feedback, we're here to listen.</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>📧 Get in Touch</h3>
+                <div class="contact-info">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <a href="mailto:peacepointapp@gmail.com">peacepointapp@gmail.com</a>
+                </div>
+                <p style="color: #666; margin-top: 15px; margin-bottom: 0;">We typically respond within 24-48 hours.</p>
+            </div>
+
+            <div class="disclaimer">
+                <p><strong>⚠️ Important:</strong> PeacePoint is NOT a medical device and should not be considered a substitute for professional medical advice, diagnosis, or treatment. If you're experiencing a mental health emergency, please contact emergency services or a crisis hotline immediately.</p>
+            </div>
+
+            <div class="section">
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq">
+                    <h3>How do I restore my purchase?</h3>
+                    <p>Go to the Profile tab → tap "Upgrade" or "Manage Subscription" → tap "Restore Purchase". Make sure you're logged into the same Apple ID you used to make the original purchase.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>Is my data backed up?</h3>
+                    <p>Yes! If you have iCloud Backup enabled on your device, all your PeacePoint data (journal entries, checklists, mood logs) is automatically included in your device backups. We don't have access to your data—it stays on your device and in your personal iCloud backup.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>How do I enable the Privacy Vault (FaceID/Biometric Lock)?</h3>
+                    <p>Go to Profile → Privacy & Security → toggle "Biometric Lock". You'll need to authenticate once to enable it.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>Can I get a refund?</h3>
+                    <p>All purchases are processed through Apple's App Store. Refund requests must be submitted directly to Apple. You can request a refund through the App Store app or at <a href="https://reportaproblem.apple.com" style="color: #667eea; font-weight: 600;">reportaproblem.apple.com</a></p>
+                </div>
+
+                <div class="faq">
+                    <h3>The app isn't working properly. What should I do?</h3>
+                    <p>Try these steps: 1) Close and reopen the app, 2) Restart your device, 3) Make sure you have the latest version from the App Store. If the problem persists, email us with details about what's happening.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>Do you offer discounts or financial assistance?</h3>
+                    <p>We offer three pricing tiers to make PeacePoint accessible to everyone. If you genuinely cannot afford any tier, please email us—we want to help.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Feature Requests & Feedback</h2>
+                <p>We love hearing from our users! If you have ideas for new features, suggestions for improvements, or general feedback, please email us at <a href="mailto:peacepointapp@gmail.com" style="color: #667eea; font-weight: 600;">peacepointapp@gmail.com</a></p>
+                <p>Your input helps make PeacePoint better for everyone.</p>
+            </div>
+
+            <div class="links">
+                <a href="https://peacepoint-dev.github.io/privacy.html">Privacy Policy</a>
+                <a href="https://peacepoint-dev.github.io/terms.html">Terms of Use</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>PeacePoint © 2026</p>
+            <p style="margin-top: 8px; font-size: 0.85em;">Made with 🕊️ for your peace of mind</p>
+        </div>
+    </div>
+</body>
+</html>
